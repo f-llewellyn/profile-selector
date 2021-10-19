@@ -33,4 +33,12 @@
 		margin-right: auto;
 		margin-bottom: 2rem;
 	}
+
+	@media (max-width: 700px) {
+		main {
+			border-radius: 0;
+			min-height: 100vh;
+			min-width: 100vw;
+		}
+	}
 </style>

@@ -23,4 +23,14 @@
         margin: 0 auto;
     }
 
+    @media (max-width: 700px) {
+        ul {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* margin: 0 auto; */
+            min-height: 0;
+        }
+    }
+
 </style>

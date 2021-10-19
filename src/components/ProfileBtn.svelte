@@ -41,8 +41,7 @@
 <style>
 
     .btn-container {
-        margin: 5rem 0;
-		margin-bottom: -4rem;
+        margin-top: 4rem;
 		transition: all 0.2s ease;
         display: flex;
         align-items: center;

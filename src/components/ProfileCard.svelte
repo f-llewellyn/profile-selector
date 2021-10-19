@@ -224,4 +224,20 @@
 	button:focus {
 		background-color: #f0f4fb;
 	}
+
+	@media (max-width: 700px) {
+		
+		.outer {
+			aspect-ratio: auto;
+			min-width: 100%;
+		}
+		
+		.content {
+			display: flex;
+			align-items: center;
+			gap: 1rem;
+			padding: 0;
+			aspect-ratio: auto;
+		}
+	}
 </style>
